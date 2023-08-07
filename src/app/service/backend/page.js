@@ -50,7 +50,6 @@ export default function page() {
             <section className='lg:flex md:flex justify-between flex-row-reverse items-center gap-10 mt-16'>
                 <div className='lg:w-1/2 md:w-1/2'>
                     <p className='text-5xl text-white font-semibold'><span className='text-[#42C6FF] capitalize'>Security, Authentication</span></p>
-                    <p className='text-gray-400 mt-1 text-lg'>PostgreSQL</p>
                     <p className='text-gray-300 mt-7 lg:text-lg md:text-sm'>Implement robust security measures, including user authentication, authorization, and data encryption, to protect your application and user data from potential threats.
                     </p>
                 </div>
