@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    border-radius: 20px;
+    background: linear-gradient(140deg, #000 0%, #3500c6 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: 400% 400%;
+    animation: gradient 10s ease-in infinite;
+}
+
+img {
+    transition: .4s;
+    animation: fromleft 1s ease-in-out;
+}
+
+@keyframes fromleft {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
