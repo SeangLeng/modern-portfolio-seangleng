@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 import { Formik, Form, Field, ErrorMessage } from 'formik';
-import Alert from '../component/alert';
+import Alert from '../component/Alert';
 
 export default function page() {
 
