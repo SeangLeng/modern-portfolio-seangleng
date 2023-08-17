@@ -15,6 +15,6 @@ export const Cardinfo = [
         title: "Web design UX/UI",
         logo: "https://upload.wikimedia.org/wikipedia/commons/a/ad/Figma-1-logo.png",
         description: 'I refer to the process of creating the visual layout and overall look and feel of a website. It involves a combination of artistic and technical skills to design and construct the user interface (UI) and user experience (UX) elements of a website.',
-        link: '#front-end'
+        link: 'https://www.figma.com/file/WJo3pztasU5xkUF94YAKHQ/Untitled?type=design&node-id=0%3A1&mode=design&t=aIzRagrSzwQ4wHrO-1'
     },
 ]

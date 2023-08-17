@@ -26,7 +26,7 @@ export default function Contact() {
         }
 
         if (!values.subject) {
-            errors.subject = 'Subject is required';
+            errors.subject = 'position is required';
         }
 
         if (!values.message) {
@@ -56,20 +56,20 @@ export default function Contact() {
                 <Alert name={name} close={close} />
             )}
 
-            <div className='lg:w-1/2'>
+            <div className='lg:w-1/2 md:w-1/3 w-full'>
                 <p className='text-white text-5xl font-semibold'>
                     Let's <span className='text-[#42C6FF]'>chat</span>.<br />
                     Tell me about your <span className='text-[#42C6FF]'>interest</span>!
                 </p>
                 <p className='text-gray-300 text-lg mt-4'>Let's create something together 🫰</p>
             </div>
-            <div className='lg:w-1/2 w-full flex justify-center items-center h-full'>
+            <div className='lg:w-1/2 md:w-2/3 w-full flex justify-center items-center h-full'>
                 <Formik
                     initialValues={initialValues}
                     validate={validateForm}
                     onSubmit={handleSubmit}
                 >
-                    <Form className="lg:w-2/3 md:w-full w-full mt-10 bg-gray-500/30 p-10 rounded-3xl grid gap-5 shadow-lg">
+                    <Form className="max-w-[500px] w-full mt-10 bg-gray-500/30 lg:p-10 md:p-5 p-5 rounded-3xl grid gap-5 shadow-lg">
                         <p className='text-2xl text-white font-semibold '>Send me message 🚀</p>
                         <div className="mb-4">
                             <Field
@@ -98,7 +98,7 @@ export default function Contact() {
                                 type="text"
                                 id="subject"
                                 name="subject"
-                                placeholder="Subject"
+                                placeholder="Position"
                                 className="form-input mt-1 block w-full rounded-xl p-4"
                             />
                             <ErrorMessage name="subject" component="div" className="text-red-500" />
