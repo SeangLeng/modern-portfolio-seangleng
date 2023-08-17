@@ -2,13 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     border-radius: 20px;
-    background: linear-gradient(140deg, #000 0%, #3500c6 100%);
+    background: linear-gradient(100deg, #000 0%, #0830d0 50%, #2a009c 100%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-size: 400% 400%;
-    animation: gradient 10s ease-in infinite;
+    animation: gradient 6s ease-in infinite;
 }
 
 img {

@@ -5,9 +5,9 @@ import responsive from '../../../../public/images/Web-devices-amico.png'
 import performance from '../../../../public/images/Performance-overview-rafiki.png'
 import Collaboration from '../../../../public/images/Open-source-rafiki.png'
 
-export default function ServiceFrontend() {
+export default function ServiceFrontend({id}) {
     return (
-        <div className="min-h-screen py-36 px-[10%]">
+        <div id={id} className="min-h-screen py-36 px-[10%]">
             <section className='lg:flex md:flex justify-between items-center gap-10 mt-16'>
                 <div className='lg:w-1/2 md:w-1/2'>
                     <p className='text-5xl text-white font-semibold'><span className='text-[#42C6FF] capitalize'>Frontend</span> development</p>
