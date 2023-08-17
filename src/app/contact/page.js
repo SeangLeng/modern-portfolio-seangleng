@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import Alert from '../component/Alert';
 
-export default function page() {
+export default function Contact() {
 
     const initialValues = {
         fullname: '',

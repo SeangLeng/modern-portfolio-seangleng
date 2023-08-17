@@ -4,7 +4,7 @@ import API from '../../../../public/images/image-removebg-preview.png'
 import database from '../../../../public/images/scrum method-rafiki.png'
 import security from '../../../../public/images/Secure data-amico.png'
 import Image from 'next/image'
-export default function page() {
+export default function ServiceBackend() {
     return (
         <div className="min-h-screen py-36 px-[10%]">
             <section className='lg:flex md:flex justify-between items-center gap-10 mt-16'>

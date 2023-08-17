@@ -22,7 +22,7 @@ export default function Navbar() {
         }
     }
     return (
-        <nav className='flex justify-between w-full items-center fixed top-0 lg:px-[5%] py-12 md:px-[3%] px-2'>
+        <nav className='flex justify-between w-full items-center fixed z-50 top-0 lg:px-[5%] py-12 md:px-[3%] px-2 '>
             <a href='/'>
                 <Image src={logo} width={70} height={70} />
             </a>

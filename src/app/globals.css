@@ -26,6 +26,18 @@ img {
     }
 }
 
+li  {
+    padding: 5px 10px; 
+    border-radius: 10px 5px;
+    transition: .4s;
+}
+
+
+li:hover {
+    background-color: rgba(176, 176, 176, 0.543);
+
+}
+
 img:hover {
     transform: scale(1.1);
 }

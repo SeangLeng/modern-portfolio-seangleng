@@ -5,7 +5,7 @@ import responsive from '../../../../public/images/Web-devices-amico.png'
 import performance from '../../../../public/images/Performance-overview-rafiki.png'
 import Collaboration from '../../../../public/images/Open-source-rafiki.png'
 
-export default function Service() {
+export default function ServiceFrontend() {
     return (
         <div className="min-h-screen py-36 px-[10%]">
             <section className='lg:flex md:flex justify-between items-center gap-10 mt-16'>
