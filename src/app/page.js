@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import homepage_image from '../../public/images/homepage-image.png'
+import homepage_image from '../../public/images/profile.jpg'
 import Link from 'next/link'
 import About from './about/page'
 import ServiceFrontend from './service/frontend/page'
@@ -21,7 +21,7 @@ export default function Home() {
           <p className='text-white lg:text-xl md:text-lg text-md mt-14'>A web developer is a skilled professional who specializes in creating and maintaining websites. They are proficient in various programming languages such as HTML, CSS, and JavaScript, and they utilize their expertise to design and develop visually appealing and user-friendly websites.</p>
         </div>
         <div data-aos="fade-left">
-          <Image src={homepage_image} width={600} height={600} />
+          <Image src={homepage_image} width={600} height={600} className='rounded-full' />
         </div>
       </div>
       <About />
